@@ -29,7 +29,7 @@ app.use('/api/events', require('./routes/events'));
 
 
 app.get('*', (req, res) => {
-    res.sendFile( __dirname + '/public/index.html');
+    res.sendFile('https://mern-calendar-backend-five.vercel.app/');
 })
 //CRUD => eventos
 
